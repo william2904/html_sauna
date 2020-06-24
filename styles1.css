@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+.Navegation{
+    width: 1000px;
+    margin: 40px auto;
+/*     background-color: black; */
+    
+
+}
+.Navegation ul{
+    list-style: none;
+    
+}
+.Submenu{
+    background-color: brown;
+}
+.Menu > li{
+    /* position: relative; */
+    display: inline-block;
+    
+}
+.Menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    background-color: red;
+    color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
